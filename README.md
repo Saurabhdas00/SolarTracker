@@ -16,9 +16,10 @@
 🔹 *Start the session → Check feasibility → Select panels → Get power estimate*  
 🔹 *After results, everything locks & shows "Session Ended"*  
   
-![SolarSense Demo](https://via.placeholder.com/800x400.png?text=SolarSense+Demo) *(Replace with actual screenshot!)*  
+![SolarSense Demo](https://github.com/user-attachments/assets/f85276ed-921a-4767-8453-d72694160c8e) *(Replace with actual screenshot!)*  
 
----
+---!
+
 
 ## 🚀 How It Works?  
 1️⃣ **Click "Start Session"** → Fetch location & weather data  
