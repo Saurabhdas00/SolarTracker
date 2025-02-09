@@ -16,9 +16,8 @@
 🔹 *Start the session → Check feasibility → Select panels → Get power estimate*  
 🔹 *After results, everything locks & shows "Session Ended"*  
   
-![SolarSense Demo](https://github.com/user-attachments/assets/f85276ed-921a-4767-8453-d72694160c8e) *(Replace with actual screenshot!)*  
+![SolarSense Demo](https://github.com/user-attachments/assets/f85276ed-921a-4767-8453-d72694160c8e) 
 
----!
 
 
 ## 🚀 How It Works?  
