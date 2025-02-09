@@ -16,7 +16,8 @@ if not st.session_state.session_active and not st.session_state.session_ended:
     if st.button("🔍 Start Session"):
         st.session_state.session_active = True
         st.session_state.panel_selected = False  # To ensure only feasibility shows first
-        st.experimental_rerun()
+        st.rerun()
+
 
 # Proceed only if session has started and not ended
 if st.session_state.session_active:
@@ -113,7 +114,8 @@ if st.session_state.session_active:
             num_panels = st.slider("Select number of panels:", 1, 20, 5, key="num_panels")
             st.session_state.total_power = panel_output_per_day * num_panels
             st.session_state.panel_selected = True
-            st.experimental_rerun()
+            st.rerun()
+
 
         st.write(f"⚡ **Total estimated power output:** {st.session_state.total_power:.2f} kWh/day for {st.session_state.num_panels} panels")
 
@@ -134,4 +136,4 @@ if st.session_state.session_ended:
     if st.button("🔄 Start New Session"):
         for key in list(st.session_state.keys()):
             del st.session_state[key]
-        st.experimental_rerun()
+        st.rerun()
